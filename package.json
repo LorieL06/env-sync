@@ -1,0 +1,26 @@
+{
+  "name": "env-sync-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI to generate .env.example from .env", 
+  "description2": ".env dosyasından .env.example dosyasını oluşturmaya yarayan, hiçbir bağımlılığı olmayan komut satırı aracı",
+  "main": "dist/index.js",
+  "bin": {
+    "env-sync": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "env",
+    "cli",
+    "security",
+    "dotenv"
+  ],
+  "author": "Bora Dogan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.0.0"
+  }
+}

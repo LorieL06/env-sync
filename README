@@ -1,0 +1,20 @@
+<div align="center">
+  <h1> 𝓖𝓪𝔃𝓲 𝓜. 𝓚𝓮𝓶𝓪𝓵 </h1>
+</div>
+
+# env-sync-cli
+
+A zero-dependency CLI tool to securely generate `.env.example` from your local `.env` file. 
+It strips out sensitive values but keeps your keys, comments, and empty lines intact.
+
+# TR
+
+Yerel `.env` dosyanızdan `.env.example` dosyasını güvenli bir şekilde oluşturmak için kullanılan, hiçbir bağımlılığı olmayan bir CLI aracı.
+Hassas değerleri çıkarır, ancak anahtarlarınızı, yorumlarınızı ve boş satırlarınızı olduğu gibi korur.
+
+## Usage
+
+Run it directly in any project directory containing a `.env` file:
+
+```bash
+npx env-sync-cli
