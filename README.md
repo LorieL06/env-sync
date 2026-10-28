@@ -1,6 +1,8 @@
-# 𝓖𝓪𝔃𝓲 𝓜. 𝓚𝓮𝓶𝓪𝓵
+<div align="center">
+  <h1> 𝓖𝓪𝔃𝓲 𝓜. 𝓚𝓮𝓶𝓪𝓵 </h1>
+</div>
 
-## env-sync-cli
+# env-sync-cli
 
 A zero-dependency CLI tool to securely generate `.env.example` from your local `.env` file. 
 It strips out sensitive values but keeps your keys, comments, and empty lines intact.
